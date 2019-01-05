@@ -1,0 +1,56 @@
+.container-fluid {
+    padding: 0px;
+}
+.wrapperText {
+    position: absolute;
+    top: 25%;
+    left: 9.9%;
+    font-size: 90px;
+    text-shadow: -5px 1px 2px rgb(255, 255, 255);
+}
+.letter {
+    display: inline-block;
+}
+.col-12.col-md-9,
+.col-md-3 {
+    padding: 0px;
+}
+.col-12.col-md-9 picture img {
+    margin-top: -212px;
+}
+.wrapperBoxAsideA {
+    height: 48%;
+    background-color: #f1f1f1;
+    text-align: left;
+    padding-left: 12%;
+    padding-top: 14%;
+}
+
+.wrapperBoxAsideA h3 {
+    font-size: 40px;
+    color: #252525;
+}
+
+.wrapperBoxAsideA p {
+    font-size: 17px;
+    color: #9b9b9b;
+    margin-top: 13%;
+    width: 50%;
+}
+.btn-ui-a {
+    display: block;
+    width: 100%;
+    border-radius: 0pc;
+    font-size: 16px;
+    background-color: #00ffdc;
+    border: 1px solid #00ffdb;
+    color: #101010;
+    padding: 25px 0px;
+}
+.box-number {
+    background: #161616;
+    padding: 15px 0px 11px 0px;
+    color: #fff;
+    padding-left: 13%;
+    font-size: 50px;
+}
