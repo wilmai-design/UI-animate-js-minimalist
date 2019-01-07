@@ -12,14 +12,16 @@
     display: inline-block;
 }
 .col-12.col-md-9,
-.col-md-3 {
+.col-md-3,
+.col-md-1 {
     padding: 0px;
 }
 .col-12.col-md-9 picture img {
     margin-top: -212px;
+    /* width: 1068px; */
 }
 .wrapperBoxAsideA {
-    height: 48%;
+    height: 57%;
     background-color: #f1f1f1;
     text-align: left;
     padding-left: 12%;
@@ -40,7 +42,7 @@
 .btn-ui-a {
     display: block;
     width: 100%;
-    border-radius: 0pc;
+    border-radius: 0px;
     font-size: 16px;
     background-color: #00ffdc;
     border: 1px solid #00ffdb;
@@ -49,8 +51,91 @@
 }
 .box-number {
     background: #161616;
-    padding: 15px 0px 11px 0px;
+    padding: 35px 0px 20px 0px;
     color: #fff;
     padding-left: 13%;
     font-size: 50px;
+}
+
+.line-a {
+    height: 3px;
+    width: 70%;
+    background-color: #f1f1f1d6;
+    position: relative;
+    top: -52px;
+    left: 27%;
+}
+
+#wrapperFooterLeft {
+    background: #161616;
+    color: #ffffffd6;
+    padding: 40px 10px 80px 80px;
+}
+
+.box-bullets {
+    /* border: 1px solid red; */
+    height: 28px;
+    position: absolute;
+    width: 80px;
+    left: 84%;
+    top: 40px;
+}
+
+.box-bullets a {
+    background-color: #ffffffba;
+    height: 8px;
+    width: 8px;
+    margin-right: 5px;
+    display: inline-block;
+    border-radius: 13px;
+}
+
+.box-bullets a:nth-child(1) {
+    background-color: #fff;
+}
+
+#wrapperFooterLeft .col-md-3 {
+    margin-right: 52px;
+    float: left;
+    margin-top: 75px;
+}
+
+#wrapperFooterLeft .col-md-3 h4{
+    color: #c8c8c89c;
+    font-size: 16px;
+}
+
+.btnFooterA {
+    transform: rotate(270deg);
+    width: 216%;
+    height: 43%;
+    position: relative;
+    margin: 63px 0px 0px -74px;
+    border-radius: 0px;
+}
+
+.btnFooterA {
+    transform: rotate(270deg);
+    width: 256%;
+    height: 43%;
+    position: relative;
+    margin: 86px 0px 0px -96px;
+    border-radius: 0px;
+    font-size: 18px;
+}
+
+.btnOne {
+    background-color: #e1b600;
+    border-color: #e8b600;
+    color: black;
+    
+}
+
+.img-fluid.imgEnd {
+    height: 303px;
+    margin-top: -24px;
+}
+
+.wrapperAside {
+    height: 524px;
 }
