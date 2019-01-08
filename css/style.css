@@ -1,12 +1,17 @@
 .container-fluid {
     padding: 0px;
 }
-.wrapperText {
+.wrapperText, a {
     position: absolute;
     top: 25%;
     left: 9.9%;
     font-size: 90px;
     text-shadow: -5px 1px 2px rgb(255, 255, 255);
+    color: #e8b600;
+}
+.wrapperText, a:hover {
+    color: #e8b600;
+    text-decoration: none;
 }
 .letter {
     display: inline-block;
